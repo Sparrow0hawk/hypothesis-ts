@@ -1,0 +1,11 @@
+name: hypo-ts
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - pip=20
+  - pip:
+    - hypothesis
+    - pytest
