@@ -2,6 +2,10 @@ def encode(input_string):
     count = 1
     prev = ""
     lst = []
+    # handling empty string
+    if not input_string:
+        return []
+
     for character in input_string:
         if character != prev:
             if prev:
